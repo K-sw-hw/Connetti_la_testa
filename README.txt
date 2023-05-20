@@ -20,7 +20,8 @@
 |   '---------'        
 |    _______|  
 |  .'-+-+-+|  
-|  '.-+-+-+|    <{Io sono Blender, e darò 						
-|    """""" |	piccoli consigli e suggerimenti
-'-.__   __.-'   utili!}
+|  '.-+-+-+|    <{Io sono Blender}
      """
+     
+     		per cominciare a usare il sito, apri l'index.html
+		APRI SOLO QUESTO FILE!
