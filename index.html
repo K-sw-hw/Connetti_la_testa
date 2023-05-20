@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mouse.css">
+    </head>
+    <body>
+
+
+        <h3 style="color: white;" id="subtitle">Progetto UDA 2023</h3>
+        <h1 id="title">CONNETTI LA TESTA</h1>
+
+
+        <div id="wrapper" data-configuration="1" data-roundness="1">
+            <a class="shape" href="privacy/grey.html"></a>
+            <a class="shape" href="password/password.html"></a>
+            <a class="shape" href="fishing/fish.html"></a>
+            <a class="shape" href="link/link.html"></a>
+            <a class="shape" href="browser/browser.html"></a>
+            <a class="shape" href="virus/virus.html"></a>
+            <a class="shape" href="about/about.html"></a>
+          </div>
+
+          <div class="cursor"></div>
+        
+        <script src="script.js" async defer></script>
+
+        <script>
+            // Cursor and pointer custom
+
+            const cursor = document.querySelector('.cursor');
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.pageX + 'px';
+                cursor.style.top = e.pageY + 'px';
+
+            });
+        </script>
+    </body>
+</html>

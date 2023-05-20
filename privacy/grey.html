@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/scroll.css">
+
+    <link rel="stylesheet" href="grey.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<svg class="curzr" hidden>
+  <filter id="motionblur" x="-100%" y="-100%" width="400%" height="400%">
+    <feGaussianBlur class="curzr-motion-blur" stdDeviation="0, 0"/>
+  </filter>
+  <circle cx="50%" cy="50%" r="10" fill="#120D27" filter="url(#motionblur)" />
+</svg>
+    <header>
+        <div class="title-container" 
+         data-aos="fade-right"
+         data-aos-duration="1000"
+         data-aos-easing="ease">        
+        <h1 class="main-title">Non sottovalutare <br> la tua <i>privacy</i>.</h1>
+    </header>
+
+    <div class="section s1">
+       <p> La privacy online è un tema di <i>fondamentale</i> importanza nel mondo digitale odierno. <br> 
+
+        Quando navighiamo sul web o sui social network, ogni nostra azione può essere 
+        <i>tracciata</i> e <i>monitorata</i> da terze parti. <br> 
+        
+        I nostri dati personali, come indirizzo email, 
+        numeri di telefono e informazioni di pagamento, sono <i>preziosi</i> e possono essere 
+        facilmente rubati da malintenzionati. <br> 
+          
+    
+    </div>
+    <div class="section s2"> 
+        <p> Cosa puoi fare per proteggerti? <br>
+            Ecco 5 suggerimenti utili:</p>
+
+        <ul>
+            <li>Utilizza password forti e uniche per ogni account e aggiorna le password regolarmente.</li>
+            <li>Imposta le impostazioni di privacy sui social network e sui servizi online per limitare la condivisione dei tuoi dati personali.</li>
+            <li>Utilizza strumenti come VPN o Tor per proteggere la tua identità online e impedire il tracciamento delle tue attività.</li>
+            <li>Evita di condividere informazioni personali sensibili come indirizzi, numeri di telefono e informazioni di pagamento con siti web o applicazioni non affidabili.</li>
+            <li>Utilizza software antivirus e firewall per proteggere il tuo dispositivo da virus e malware e disattiva la condivisione della posizione GPS sui tuoi dispositivi mobili quando non la stai utilizzando.</li>
+        </ul>
+    </div>
+    <div class="section s3"> 
+        <p>Sappiamo che sono cose che avrai sentito più e più volte, 
+            ma ricordati che quando ci sono di mezzo i tuoi dati, 
+            c'è direttamente di mezzo anche tutta la tua vita <br>
+
+        </p>
+    </div>
+
+    <div class="start-button">
+
+        <button id="button" onclick="topFunction()">
+        </button>
+
+    </div>
+	
+	<script>
+		// Funzione per tornare all'inizio della pagina
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+    
+
+    <script src="grey.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

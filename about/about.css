@@ -1,0 +1,177 @@
+*
+{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {scroll-behavior: smooth;}
+
+html, body {overflow-x: hidden;}
+
+
+
+body
+{
+    background-color: #3f403f;
+    min-height: 400vh;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    color: #c0bfc0;
+
+    scroll-snap-type: y mandatory;
+}
+
+header
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .main-title
+{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.s1, .s2, .s3, .s4, .s5, .s6
+{
+    display: grid;
+    place-items: center;
+    text-align: justify;
+}
+
+.section > p
+{
+    font-size: 1.6rem;
+    width: 70%;
+    text-align: justify;
+}
+
+.section > h3
+{
+    font-size: 2rem;
+}
+
+.s2
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,.25), 1px 1px 3px rgba(0,0,0,.1);
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+.card-media {
+  width: 100%;
+}
+
+.card-details {
+  padding: 5px 10px;
+}
+
+.card-head {
+  font-weight: 400;
+}
+
+.card-head {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.card-action-button {
+  border-radius: 2px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card-action-button:hover {
+  background-color: rgba(255 ,168 ,58, .2);
+}.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,.25), 1px 1px 3px rgba(0,0,0,.1);
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+.card-media {
+  width: 100%;
+}
+
+.card-details {
+  padding: 5px 15px;
+}
+
+.card-head {
+  font-weight: 400;
+}
+
+.card-head {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+h2.card-head
+{
+    color: black;
+}
+
+p.card-head {color: black;}
+
+.card-action-button {
+  border-radius: 2px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card-action-button:hover {
+  background-color: rgba(255 ,168 ,58, .2);
+}
